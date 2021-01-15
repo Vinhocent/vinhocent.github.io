@@ -1,4 +1,9 @@
 {
+  "name": "triho",
+  "version": "1.0.0",
+  "description": "Tri's personal website",
+  "author": "Tri Ho",
+  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
