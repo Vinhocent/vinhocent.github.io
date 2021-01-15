@@ -1,9 +1,4 @@
 {
-  "name": "raffaelepizzari_com",
-  "version": "1.0.0",
-  "description": "Raffaele Pizzari&#39;s personal website",
-  "author": "Raffaele Pizzari",
-  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

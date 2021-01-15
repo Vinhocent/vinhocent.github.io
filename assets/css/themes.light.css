@@ -37,7 +37,7 @@ h6 {
 a,
 .t-link-container .t-link-container__item,
 .t-link-container:hover .t-link-container__item--blended {
-  color: #005B5C;
+  color: #005b5c;
 }
 
 /* Hover Links */
@@ -45,7 +45,7 @@ a:hover,
 a:focus,
 a:active,
 .t-link-container:hover .t-link-container__item {
-  color: #005B5C;
+  color: #005b5c;
 }
 
 /* Horizontal Rulers */
@@ -62,18 +62,18 @@ hr,
 /* Primary Color */
 .t-primary-color,
 .t-primary-color-line {
-  color: #005B5C;
+  color: #005b5c;
 }
 
 .t-primary-bg,
 .t-primary-color-line {
-  background: #005B5C;
+  background: #005b5c;
 }
 
 /* Preloader */
 .t-preloader__spinner:not(:required):before {
-  border-top-color: #005B5C;
-  border-bottom-color: #005B5C;
+  border-top-color: #005b5c;
+  border-bottom-color: #005b5c;
 }
 
 /* Brand Colors */
@@ -82,7 +82,7 @@ hr,
 }
 
 .t-title__second-word {
-  color: #005B5C;
+  color: rgb(114, 114, 235);
 }
 
 .t-sub-title {
@@ -108,7 +108,7 @@ hr,
 .t-sub-title {
   font-weight: 300;
   font-size: 1.5rem;
-  margin-left: .3rem;
+  margin-left: 0.3rem;
 }
 
 /* Icons */
@@ -131,7 +131,7 @@ hr,
 }
 
 .t-social-button:hover .fa {
-  color: #005B5C;
+  color: #005b5c;
 }
 
 /* Image Overlay */
@@ -158,7 +158,7 @@ button,
 a .fa,
 .t-link-container .t-link-container__item,
 .t-link-container .t-link-container__item--blended {
-  transition: all .15s linear;
+  transition: all 0.15s linear;
 }
 
 /* Sections */
@@ -213,7 +213,8 @@ a .fa,
   }
 }
 
-.c-work__timeframe, .c-work__location {
+.c-work__timeframe,
+.c-work__location {
   color: #000 !important;
 }
 /*# sourceMappingURL=themes.light.css.map */

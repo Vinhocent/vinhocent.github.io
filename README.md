@@ -1,13 +1,10 @@
-# raffaelepizzari.com [![CircleCI](https://circleci.com/gh/pixari/raffaelepizzari_com/tree/master.png?style=shield)](https://circleci.com/gh/pixari/raffaelepizzari_com)
-
-> My personal website. You can visit it at [raffaelepizzari.com](http://raffaelepizzari.com).´
-
-
 ## Built With
+
 [Nuxt.js](https://nuxtjs.org)
 
 ## Build Setup
-``` bash
+
+```bash
 # install dependencies
 $ yarn install
 

@@ -8,13 +8,14 @@
         <header class="o-section__header  t-section__header">
           <div class="o-content">
             <h2 class="o-section__heading">
-              {{ $t('Education') }}
+              {{ $t("Education") }}
             </h2>
             <div class="o-content__body  o-section__description">
-              {{ $t('Yes, I have been around.') }}
+              {{ $t("Yes, I have been around.") }}
             </div>
           </div>
-        </header><!-- /o-section__header -->
+        </header>
+        <!-- /o-section__header -->
 
         <div class="o-section__content  t-section__content  u-pb-0">
           <div class="a-experience-timeline  c-timeline  t-border-color">
@@ -36,65 +37,62 @@
                     <h4 class="c-work__title">
                       {{ edu.role }}
                     </h4>
+                    <h4 class="c-work__title">
+                      {{ edu.marks }}
+                    </h4>
                     <div class="c-work__location">
                       {{ edu.location }}
                     </div>
                   </div>
                   <div class="o-grid__col-md-7">
                     <p>
-                      {{ edu.description }}  
+                      {{ edu.description }}
                     </p>
                   </div>
-                </div><!-- /o-grid -->
-              </div><!-- /o-content -->
-            </div><!-- /c-timeline__item -->
-          </div><!-- /c-timeline -->
-        </div><!-- /o-section__content -->
-      </div><!-- /o-section__container -->
-    </div><!-- /o-container -->
-  </section><!-- /o-section -->
+                </div>
+                <!-- /o-grid -->
+              </div>
+              <!-- /o-content -->
+            </div>
+            <!-- /c-timeline__item -->
+          </div>
+          <!-- /c-timeline -->
+        </div>
+        <!-- /o-section__content -->
+      </div>
+      <!-- /o-section__container -->
+    </div>
+    <!-- /o-container -->
+  </section>
+  <!-- /o-section -->
 </template>
-
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       educations: [
-        { 
-          from: '06.2018',
-          to: this.$t('Present'),
-          company: this.$t('Microsoft'),
-          role: this.$t('Microsoft Certified Specialist'),
-          description: this.$t('microsoft_description'),
-          location: this.$t('Munich, DE'),
+        {
+          from: "09.2020",
+          to: "Ongoing",
+          company: this.$t("University of Waterloo"),
+          role: this.$t(
+            "Candidate for Bachelor of Computer Science | Faculty Average: 97% "
+          ),
+          marks: this.$t("(CS135:  97%, MATH135:  99%, MATH137:  95%)"),
+
+          location: this.$t("Waterloo, Canada"),
         },
-        { 
-          from: '10.2015',
-          to: '06.2018',
-          company: this.$t('Lumsa University'),
-          role: this.$t('Master | 87 / 100'),
-          description: this.$t('lumsa_master_description'),
-          location: this.$t('Rome, IT'),
-        },
-        { 
-          from: '10.2013',
-          to: '10.2015',
-          company: this.$t('Lumsa University'),
-          role: this.$t('1st level degree | 104/110'),
-          description: this.$t('lumsa_tri_description'),
-          location: this.$t('Rome, IT'),
-        },
-        { 
-          from: '06.2007',
-          to: '02.2014',
-          company: this.$t('Talete High-School'),
-          role: this.$t('Second Level College of Science | 87 / 100'),
-          description: this.$t('talete_description'),
-          location: this.$t('Rome, IT'),
+        {
+          from: "00.2016",
+          to: "06.2020",
+          company: this.$t("Martingrove Collegiate Institute"),
+          role: this.$t("Ontario Secondary School Diploma"),
+
+          location: this.$t("Toronto, Ontario"),
         },
       ],
-    }
+    };
   },
-}
+};
 </script>
