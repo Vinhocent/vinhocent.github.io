@@ -10,9 +10,6 @@
             <h2 class="o-section__heading">
               {{ $t("Projects") }}
             </h2>
-            <div class="o-content__body  o-section__description">
-              {{ $t("opensource_quote") }}
-            </div>
           </div>
         </header>
         <!-- /o-section__header -->
