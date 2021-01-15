@@ -1,10 +1,10 @@
-## Built With
 
+
+## Built With
 [Nuxt.js](https://nuxtjs.org)
 
 ## Build Setup
-
-```bash
+``` bash
 # install dependencies
 $ yarn install
 
