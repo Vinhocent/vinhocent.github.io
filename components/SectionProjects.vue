@@ -86,6 +86,14 @@ export default {
           link: "https://github.com/Vinhocent/CoronaJSON",
           linkText: "GitHub Repository",
         },
+        {
+          num: "04",
+          title: "This Website",
+          desc:
+            "Website built with Nuxt.js (based on Vue.js, Node.js, Webpack and Babel.js) and hosted on Netlify.",
+          link: "https://github.com/Vinhocent/vinhocent.github.io/",
+          linkText: "GitHub Repository",
+        },
       ],
     };
   },
