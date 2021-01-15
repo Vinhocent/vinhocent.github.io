@@ -10,9 +10,6 @@
             <h2 class="o-section__heading">
               {{ $t("Education") }}
             </h2>
-            <div class="o-content__body  o-section__description">
-              {{ $t("Yes, I have been around.") }}
-            </div>
           </div>
         </header>
         <!-- /o-section__header -->
