@@ -60,13 +60,13 @@
                 <ul class="c-header__social-buttons c-social-buttons">
                   <li class="a-header">
                     <a
-                      href="https://twitter.com/vinhocent"
+                      href="https://drive.google.com/file/d/1oO76i06n-vgfpfUtaYRPJ8rx8biwejXL/view?usp=sharing"
                       target="_blank"
                       class="c-social-button t-social-button"
-                      aria-label="Twitter profile"
+                      aria-label="Resume"
                       rel="noreferrer"
                     >
-                      <i class="fa  fa-lg  fa-twitter" />
+                      <i class="fa  fa-lg  fa-file" />
                     </a>
                   </li>
                   <li class="a-header">
