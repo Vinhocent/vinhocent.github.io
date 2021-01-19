@@ -82,10 +82,10 @@
                   </li>
                   <li class="a-header">
                     <a
-                      href="https://github.com/vinhocent"
+                      href="https://www.linkedin.com/in/tri-ho/"
                       target="_blank"
                       class="c-social-button t-social-button"
-                      aria-label="GitHub profile"
+                      aria-label="Linkedin profile"
                       rel="noreferrer"
                     >
                       <i class="fa fa-lg fa-linkedin" />
@@ -93,7 +93,7 @@
                   </li>
                   <li class="a-header">
                     <a
-                      href="mailto:vinhocent@gmail.com"
+                      href="mailto:tri.ho@uwaterloo.ca"
                       target="_blank"
                       class="c-social-button t-social-button"
                       aria-label="Personal E-Mail"

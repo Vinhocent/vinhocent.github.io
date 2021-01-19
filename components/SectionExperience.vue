@@ -60,14 +60,6 @@ export default {
     return {
       experiences: [
         {
-          from: "07.2018",
-          to: this.$t("Present"),
-          company: "Conchordium",
-          role: "Director of Communications",
-          description: this.$t("asdasdaoskdjskajd"),
-          location: this.$t("Toronto, Canada"),
-        },
-        {
           from: "04.2019",
           to: "12.2019",
           company: "University of Toronto Department of Civil Engineering",
@@ -84,6 +76,16 @@ export default {
           role: "Research Assistant",
           description: this.$t(
             "Researched Galois Fields with a graduate student at the University of Toronto Department of Mathematics. Peformed computational algebra between the additive and multiplicative groups of Galois fields, using MATLAB and SAGEMATH."
+          ),
+          location: this.$t("Toronto, Canada"),
+        },
+        {
+          from: "07.2018",
+          to: this.$t("Present"),
+          company: "Conchordium",
+          role: "Director of Communications",
+          description: this.$t(
+            "Conchordium is a youth not-for-profit organization that aims to provide a space for young musicians of all types to connect and interact with each other. "
           ),
           location: this.$t("Toronto, Canada"),
         },
