@@ -60,7 +60,7 @@
                 <ul class="c-header__social-buttons c-social-buttons">
                   <li class="a-header">
                     <a
-                      href="https://drive.google.com/file/d/1oO76i06n-vgfpfUtaYRPJ8rx8biwejXL/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1cLXaiefH74ws03QNQxu3bjCXbTxVEU-z/view?usp=sharing"
                       target="_blank"
                       class="c-social-button t-social-button"
                       aria-label="Resume"
