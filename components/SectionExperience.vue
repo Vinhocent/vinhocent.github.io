@@ -60,6 +60,12 @@ export default {
     return {
       experiences: [
         {
+          company: "1Password",
+          role: "Incoming Software Developer",
+
+          location: this.$t("Remote from Toronto, Canada"),
+        },
+        {
           from: "04.2019",
           to: "12.2019",
           company: "University of Toronto Department of Civil Engineering",
